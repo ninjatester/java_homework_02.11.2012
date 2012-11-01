@@ -32,7 +32,7 @@ public class BankProject {
         AccountHolder element3 = bankProject.accountManager.getAccount(3);
         System.out.println(element3.name + " " + element3.ballance);
         
-        //deposit money for 5
+        //deposit money for 3
         bankProject.operationManager.deposit(element3, 65.44);
         
         //get element at 3 position
